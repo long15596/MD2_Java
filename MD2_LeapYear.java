@@ -9,15 +9,15 @@ public class MD2_LeapYear {
         if (year % 4 == 0) {
             if (year % 100 == 0) {
                 if (year % 400 == 0) {
-                    System.out.println(year + "là năm nhuận");
+                    System.out.println(year + " là năm nhuận");
                 } else {
-                    System.out.println(year + "không phải là năm nhuận");
+                    System.out.println(year + " không phải là năm nhuận");
                 }
             } else {
-                System.out.println(year + "là năm nhuận");
+                System.out.println(year + " là năm nhuận");
             }
         } else {
-            System.out.println(year + "là năm không nhuận");
+            System.out.println(year + " là năm không nhuận");
         }
     }
 }
